@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Megrim|Coda");
+body {
+    background-color: #003900;
+    color: #fff;
+}
+.header {
+    font-family: "Megrim", cursive;
+}
+.header h1 {
+    border-bottom: 1px solid #fff;
+    box-shadow: 1px 1px 1px #000;
+}
+.range-field {
+    width: 70%;
+    margin: auto;
+}
+.countdown {
+    width: 300px;
+    height: 300px;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 4px double #fff;
+    text-align: center;
+    margin: 2rem auto 2rem;
+    cursor: pointer;
+}
+.countdown.greener {
+    background-color: rgba(0, 255, 0, 0.6);
+}
+.countdown.radish {
+    background-color: rgba(255, 0, 0, 0.6);
+}
+.countdown .countdown-timer,
+.countdown .countdown-name {
+    line-height: 150px;
+    margin: 0;
+    font-size: 4rem;
+    font-family: "Coda", cursive;
+}
+.countdown .countdown-name {
+    font-size: 3rem;
+}
+.content-title {
+    font-family: "Coda", cursive;
+}
+.btn-control {
+    font-family: "Megrim", cursive;
+    text-transform: uppercase;
+}
